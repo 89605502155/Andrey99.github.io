@@ -1,0 +1,190 @@
+body{
+	font-family: Arial, sans-serif;
+}
+header{
+	width: 100%;
+	height: 60px;
+	background: #344051;
+}
+.logo{
+	color: #fff;
+	font-size: 29px;
+	line-height: 60px;
+	padding-left: 300px;
+	float: left;
+}
+.menu{
+	float: left;
+	padding-left: 280px;
+	line-height: 30px;
+}
+.menu li{
+	float: left;
+	margin-right: 40px;
+	color: #344051;
+}
+.menu a{
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+}
+.img_title_container{
+	width: 100%;
+	height: 700px;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+	background: url(../img/photo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+.title_container{
+	float: left;
+	margin: 250px 0px 0px 700px;
+	color: #2c384a;
+	text-align: center;
+}
+.title_container h1{
+	font-size: 60px;
+	font-weight: bold;
+}
+.title_container h4{
+	margin-top: -1rem;
+	font-size: 22px;
+	color: #79818d;
+}
+.title_container input{
+	margin-left: 1rem;
+	height: 40px;
+	text-align: center;
+	border: 2px, solid, #6d7682;
+	background: none;
+	border-radius: 5px;
+	color: #6d7682;
+	font-size: 20px;
+	padding: 0px 16px;
+	float: left;
+}
+.myself_container{
+	width: 100%;
+	height: 400px;
+	text-align: center;
+}
+.myself_container h2{
+	margin: 30px 550px 10px 550px;
+	font-size: 48px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #263244;
+	text-decoration: none;
+	border-bottom: 5px solid #d17700;
+}
+.myself_container_jpg{
+	width: 150px;
+	height: 150px;
+    margin-left: 44rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+	background: url(../img/little_photo.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	border: 0.1px, solid, #6d7682;
+	border-radius: 50%;
+}
+.my_skills{
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	background: rgb(225,255,255); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, rgba(225,255,255,1) 0%, rgba(225,255,255,1) 7%, rgba(225,255,255,1) 12%, rgba(253,255,255,1) 12%, rgba(230,248,253,1) 30%, rgba(200,238,251,1) 54%, rgba(190,228,248,1) 75%, rgba(177,216,245,1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */}
+.my_skills h2{
+	margin: 30px 600px 10px 600px;
+	font-size: 48px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #263244;
+	text-decoration: none;
+	border-bottom: 5px solid #d17700;
+}
+.my_skills_new{
+	float: left;
+	margin-top: 0rem;
+}
+.my_skills_new b{
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #d17700;
+	text-decoration: none;
+}
+.Web_des,.Development,.Data_sc,.MachineL{float:left;margin:0 100px;}
+.Web_des{
+	width: 150px;
+	margin-left: 10%;
+	text-align: center;
+}
+.Development{
+	width: 150px;
+	padding-left: 50%
+	margin-top: -15.3rem;
+	text-align: center;
+}
+.Data_sc{
+	width: 150px;
+	padding-left: 59%;
+	margin-top: -15.3rem;
+	text-align: center;
+}
+.MachineL{
+	width: 200px;
+	padding-left: 81%;
+	margin-top: -15.3rem;
+	text-align: center;
+}
+.web_des_p{
+	width: 50px;
+	height: 50px;
+    margin-left: 3.5rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+	background: url(../img/nout.png);
+	background-position: 50% 20%;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+.devel_photo{
+	width: 50px;
+	height: 50px;
+    margin-left: 3.5rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+	background: url(../img/devel.png);
+	background-position: 50% 20%;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+.data_sc_photo{
+	width: 50px;
+	height: 50px;
+    margin-left: 3.5rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+	background: url(../img/dataph.png);
+	background-position: 50% 20%;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+.ml_photo{
+	width: 50px;
+	height: 50px;
+    margin-left: 3.5rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+	background: url(../img/ml_photo.png);
+	background-position: 50% 20%;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
